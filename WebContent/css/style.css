@@ -419,7 +419,7 @@ span.border.one:after {
 	width:70%;
 	float:right;
     margin-right: 10em;
-	min-height:433px;
+	/*min-height:433px;*/
 }
 .about-left-grid h2{
 	color:#191919;
@@ -445,8 +445,7 @@ span.border.one:after {
 	margin-right: 0.2em;
 }
 .about-left {
-      padding: 4.5em 0 4.7em 0;
-    float: right;
+	padding: 4.5em 0 2.5em 0;
     background: #f4f4f4;
 }
 .about-left-grid ul li a {
