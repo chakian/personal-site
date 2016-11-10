@@ -470,17 +470,6 @@ span.border.one:after {
 	-o-border-radius:1.5em;
 	-ms-border-radius:1.5em;
 }
-.about-right{
-	    float: left;
-	padding:0;
-	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
-	min-height:580px;
-	background-size: cover;
-   -o-background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -ms-background-size: cover;
-}
 /*-- services --*/
 .service-head h3{
 	color: #1b242f;
@@ -1365,10 +1354,6 @@ span.border.two:after {
 	ul.address li ul.address-text li:nth-child(1) {
 		width: 26%;
 	}
-	.about-right {
-    float: none;
-    min-height: 517px;
-	}
 	.about-left {
 		padding: 3em 0 3em 0;
 		float: none;
@@ -1488,10 +1473,6 @@ span.border.two:after {
 	}
 }
 @media(max-width:768px){
-	.about-right {
-		float: none;
-		min-height: 424px;
-	}
 	.about-left-grid {
 		width: 80%;
 		float: none;
@@ -1697,10 +1678,6 @@ span.border.two:after {
 		display: inline-block;
 		margin-right: 0.5em;
 	}
-	.about-right {
-		float: none;
-		min-height: 334px;
-	}
 	.about-left-grid ul {
 		margin: 1.5em 0 0 0;
 		padding: 0;
@@ -1799,10 +1776,6 @@ span.border.two:after {
 		margin-bottom: 1em;
 		    padding: 0;
 	}
-   .about-right {
-		float: none;
-		min-height: 255px;
-	}
 	.about-left {
 		padding: 1em 0 1em 0;
 	}
@@ -1818,10 +1791,6 @@ span.border.two:after {
 		margin-right: 0;
 		min-height: 454px;
 		margin-left: 2em;
-	}
-	.about-right {
-		float: none;
-		min-height: 234px;
 	}
 	#port {
 		padding: 1.5em 0 0 0;
