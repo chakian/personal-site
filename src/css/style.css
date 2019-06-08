@@ -127,7 +127,7 @@ div#banner-top h1 span.right-icon {
 div#banner-top h2 {
   font-size: 3.6em;
   padding: .5em 0;
-  width: 77%;
+  width: 85%;
   margin: 0 auto;
    color:#000;
 }
@@ -144,6 +144,14 @@ div#banner-top h2 span.right-icon {
   height: 50px;
   display: block;
   float: right;
+}
+div#language-change {
+	text-align: right;
+	padding-top: 10px;
+}
+div#language-change .link-box {
+	padding: 5px;
+	border: 1px solid #000;
 }
 .header-icons {
   text-align: center;
@@ -1037,17 +1045,13 @@ input[type="submit"]:hover {
 	    padding-top: 6.5em;
 	}
 	div#banner-top h1 span.left-icon {
-	width: 125px;
-	  background-size: 99px;
-	  height: 26px;
+		display: none;
 	}
 	div#banner-top h1 {
 	  font-size: 1.3em;
 	}
 	div#banner-top h1 span.right-icon {
-	  width: 120px;
-	  background-size: 102px;
-	    height: 30px;
+	  display: none;
 	}
 	div#banner-top h2 span.left-icon {
  		 display: none;
