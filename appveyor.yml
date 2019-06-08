@@ -1,0 +1,8 @@
+after_build:
+  - ps: $root = Resolve-Path .\src; [IO.Directory]::GetFiles($root.Path, '*.*', 'AllDirectories') | % { Push-AppveyorArtifact $_ -FileName $_.Substring($root.Path.Length + 1) -DeploymentName FullDeploy }
+
+deploy:
+ - provider: Environment
+   name: CKcom-LIVE
+   on:
+     branch: master
